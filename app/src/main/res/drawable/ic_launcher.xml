@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Background tile -->
+    <path
+        android:pathData="M20,0 H76 A20,20 0 0 1 96,20 V76 A20,20 0 0 1 76,96 H20 A20,20 0 0 1 0,76 V20 A20,20 0 0 1 20,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="96"
+                android:endY="96"
+                android:type="linear">
+                <item android:color="#FF0B1020" android:offset="0.0" />
+                <item android:color="#FF1B1650" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Speed dashes -->
+    <path
+        android:fillColor="#9900E5FF"
+        android:pathData="M6,38 H22 V43 H6 Z" />
+    <path
+        android:fillColor="#6600E5FF"
+        android:pathData="M2,50 H18 V55 H2 Z" />
+
+    <!-- Dashing Z -->
+    <path android:pathData="M26,22 H74 V32 L44,64 H74 V74 H22 V64 L52,32 H26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="22"
+                android:endX="74"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#FF00E5FF" android:offset="0.0" />
+                <item android:color="#FFFF2E93" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

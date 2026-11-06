@@ -246,7 +246,7 @@ class AppViewModel(app: Application) : AndroidViewModel(app) {
                 log("✓ pushed commit ${sha.take(7)}")
 
                 var attempt = 0
-                val maxHeals = 5
+                val maxHeals = 50
                 while (true) {
                     val finalRun = followRun(token, repo, sha)
                     if (finalRun.conclusion == "success") {
